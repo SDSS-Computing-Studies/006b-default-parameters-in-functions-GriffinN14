@@ -17,6 +17,7 @@ def factorPair(a,b):
     list = []
     list.append(int(a/b))
     list.append(b)
+    list.sort()
     return list
 
 
