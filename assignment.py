@@ -2,8 +2,8 @@
 
 import math
 
-def tempConversion(degrees, unit=("C")):
-    if unit == ("C"):
+def tempConversion(degrees, unit="C"):
+    if unit == "C":
         f = (degrees * 9 / 5) + 32
         f = round(f,1)
         return f
