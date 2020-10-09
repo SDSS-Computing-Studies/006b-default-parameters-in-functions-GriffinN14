@@ -13,15 +13,23 @@ def tempConversion(degrees, unit="C"):
         return c
 
 
-def factorPair():
-
+def factorPair(a,b):
+    list = []
+    for i in range(a):
+        if i > 1:
+            if a / i == int(a / i):
+                list.append(i)
+    return list
 
 
 def cosineLaw():
+    pass
 
 def convertAngle():
+    pass
 
 def solution():
+    pass
 
 def quadratic():
-
+    pass
