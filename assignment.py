@@ -15,8 +15,8 @@ def tempConversion(degrees, unit="C"):
 
 def factorPair(a,b):
     list = []
-    list.append(b)
     list.append(int(a/b))
+    list.append(b)
     return list
 
 
