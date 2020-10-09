@@ -10,3 +10,4 @@ def tempConversion(degrees, unit=("C")):
         c = (degrees - 32) * 5 / 9
         c = round(c,1)
         return c
+print(tempConversion(12))
