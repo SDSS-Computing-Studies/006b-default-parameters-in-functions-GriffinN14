@@ -21,14 +21,26 @@ def factorPair(a,b):
     return list
 
 
-def cosineLaw():
-    pass
+def cosineLaw(a,b,c,oppositeSide=True):
+    if oppositeSide == True:
+        answer = math.cos(toRadians(c))
+        return answer
 
 def convertAngle():
     pass
 
-def solution():
+def solution(a,b):
     pass
 
-def quadratic():
-    pass
+def quadratic(a,b,c):
+    list = [1,2]
+    d = (math.sqrt(b*b - 4 * a * c) + (b-b*2)) / (2 * a)
+    e = (math.sqrt(b*b - 4 * a * c) - (b-b*2)) / (2 * a)
+    list[0] = d
+    list[1] = e
+    list.sort
+    return list
+
+def toRadians(a):
+    rad = a * math.pi / 180
+    return rad
